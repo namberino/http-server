@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Besley&display=swap');
+
+body {
+    margin: 0;
+    background: #eee;
+    font-family: 'Besley', serif;
+}
+
+.header {
+    background: lightgray;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+.logo-image {
+    margin-left: 0px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.logo {
+    color: rebeccapurple;
+    font-size: 32px;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.button {
+    border: none;
+    border-radius: 5px;
+    background: #be81f7;
+    color: white;
+    padding: 5px 20px;
+    box-shadow: 3px 3px black;
+}
+
+.button:active {
+    border: none;
+    border-radius: 5px;
+    background: #be81f7;
+    color: white;
+    padding: 5px 20px;
+    box-shadow: 1px 1px black;
+    transform: translateY(2px);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: lightgray;
+    text-decoration: none;
+}
+
+.links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header-link {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.header-left, .header-right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.menu {
+    text-align: center;
+    background-color: #be81f7;
+}
+
+.body-content {
+    display: flex;
+    height: 100vh;
+}
+
+.product-list {
+    border-right: 3px solid black;
+    padding: 20px;
+    padding-right: 40px;
+    background: lightgray;
+}
+
+h2 {
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.project-list {
+    flex-direction: column;
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 5px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+}
+
+.img-contents {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: auto;
+}
+
+.image-box {
+    text-align: center;
+    margin: 5px;
+}
+
+.image-box img {
+    margin-bottom: 0px;
+}
+
+.image-box p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #be81f7;
+    text-align: center;
+}
